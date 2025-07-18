@@ -1,0 +1,79 @@
+h2{
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagger{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pagger > span{
+    margin: 0px 10px;
+    font-weight: 700;
+    color: rgb(195, 12, 236);
+
+}
+
+.contact-list{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-list > li{
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.contact-list > li > img {
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.command{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(95, 89, 89, 0.445);
+    display: none;   
+}
+
+.contact-list > li:hover > .command {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.command > a {
+    text-decoration:  none;
+    background-color: rgb(72, 96, 160);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: rgb(rgb(5, 211, 238), green, blue);
+    transition: color 1ms ease background-color 1ms ease;
+}
+
+.command > a :hover {
+    color: red;
+    background-color:  rgb(30, 174, 210);
+}
+
+form{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.input-hidden{
+    display: none;
+}
